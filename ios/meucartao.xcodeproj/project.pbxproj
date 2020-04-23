@@ -46,7 +46,7 @@
 		00E356F21AD99517003FC87E /* meucartaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meucartaoTests.m; sourceTree = "<group>"; };
 		0D4EBE596CB143C7DF962780 /* libPods-meucartao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-meucartao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1392FF0AD0256CE7681C3AAD /* Pods-meucartao-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meucartao-tvOS.release.xcconfig"; path = "Target Support Files/Pods-meucartao-tvOS/Pods-meucartao-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* meucartao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meucartao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Meu Cartão.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meu Cartão.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = meucartao/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = meucartao/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -161,7 +161,6 @@
 				973E43AF57B3DCDA82377113 /* Pods-meucartao-tvOSTests.debug.xcconfig */,
 				E24F853C0BCF4CDA1CE9C4E4 /* Pods-meucartao-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -190,7 +189,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* meucartao.app */,
+				13B07F961A680F5B00A75B9A /* Meu Cartão.app */,
 				00E356EE1AD99517003FC87E /* meucartaoTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* meucartao-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* meucartao-tvOSTests.xctest */,
@@ -237,7 +236,7 @@
 			);
 			name = meucartao;
 			productName = meucartao;
-			productReference = 13B07F961A680F5B00A75B9A /* meucartao.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* Meu Cartão.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2D02E47A1E0B4A5D006451C7 /* meucartao-tvOS */ = {
@@ -643,7 +642,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = meucartao;
+				PRODUCT_NAME = "Meu Cartão";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -665,7 +664,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = meucartao;
+				PRODUCT_NAME = "Meu Cartão";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
