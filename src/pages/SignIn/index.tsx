@@ -43,7 +43,7 @@ export default function SignIn() {
   useEffect(() => {
     async function loadStorageData(){
       const user = await AsyncStorage.getItem('user');
-      //console.log(user)
+
     }
 
     loadStorageData();
@@ -73,10 +73,10 @@ export default function SignIn() {
           formRef.current?.setErrors(errors);
           return;
         }
-
+console.log(error)
         Alert.alert(
           'Erro na autenticação',
-          'Ocorreu um erro ao fazer login, cheque as credenciais.',
+          JSON.stringify(error)
         );
       }
     },

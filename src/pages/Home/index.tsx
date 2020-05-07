@@ -11,7 +11,6 @@ const Home: React.FC = () => {
     const [loading, setLoading] = useState(true);
     useEffect(() => {
         async function loadStorageData() {
-            console.log("response.data")
 
             const user = await AsyncStorage.getItem('user');
             const response = await api.get('users');

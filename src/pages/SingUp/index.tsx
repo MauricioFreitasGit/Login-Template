@@ -70,7 +70,7 @@ export default function SignUp() {
         }
         Alert.alert(
           'Erro no cadastro',
-          'Ocorreu um erro ao fazer cadastro, tente novamente.',
+          JSON.stringify(error),
         );
       }
     },
